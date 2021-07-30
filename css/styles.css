@@ -1,0 +1,45 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+
+header {
+    background-image: url(/images/topbackgroundGreen.png); 
+    width: 100%;
+    height: 282px;
+    display:flex;
+    flex-direction: row;    
+    align-items: baseline;
+    background-color: transparent;
+}
+
+.inline-block {
+    display:inline-flex;
+    margin-bottom:130px;
+}
+.flexContainer {
+    display:flex;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-right: auto;
+    padding-left: 2px;
+    padding-top: 5px;
+}
+
+.bottomNav {
+    margin-top: auto;
+    display: inline-flex;
+    align-items: baseline;
+}
+    
+.footer {
+    background-image: url(/images/bluebottom.png); 
+    width:100%;
+    height: 228px;
+    display:flex;
+    flex-direction: row;
+    align-items: baseline;
+   
+}
+
